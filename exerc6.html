@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        
+        var n1 = parseFloat(prompt("Insira a primeira nota do aluno"));
+            var n2 = parseFloat(prompt("Insira a segunda nota do aluno"));
+            var media = (n1 + n2) / 2;
+
+
+            if(media >= 9.5){
+
+                document.write("Aluno Aprovado com média: " + media + "<br>");
+
+            }else{
+
+                document.write("Aluno Reprovado com média: " + media + "<br>");
+
+            }
+
+            var opc = prompt("Deseja calcular a média de outro aluno?  Digite (S) para 'sim' / (N) 'não' ")
+
+            while (opc == "s") {
+
+            var n1 = parseFloat(prompt("Insira a primeira nota do aluno"));
+            var n2 = parseFloat(prompt("Insira a segunda nota do aluno"));
+            var media = (n1 + n2) / 2;
+
+
+            if(media >= 9.5){
+
+                document.write("Aluno Aprovado com média: " + media + "<br>");
+
+            }
+            
+            else{
+
+                document.write("Aluno Reprovado com média: " + media + "<br>");
+
+            }
+
+             opc = prompt("Deseja calcular a média de outro aluno?  Digite (S) para 'sim' / (N) 'não' ")
+
+            }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

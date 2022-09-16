@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+       var num = parseInt(prompt("Informe um numero! "));
+       var mult = 0;
+       var  inicio = 1;
+
+       while (inicio <= num) {
+       document.write(" Tabuada do 1 ao " + num + "<br>");
+        
+        while (mult <= 10) {
+        result = inicio * mult;
+        document.write(inicio +  "x" + mult + "=" + result + "<br>");
+        mult++;
+        
+    }
+
+    inicio++;
+    mult = 0;
+    document.write("<br>");
+    }
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
